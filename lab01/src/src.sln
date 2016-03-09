@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SimUDuck", "SimUDuck\SimUDuck.vcxproj", "{6AE3AB04-2757-4C1B-8E19-3137E6417568}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SimUDuck_func", "SimUDuck_func\SimUDuck_func.vcxproj", "{01D282E9-1169-479E-9FF5-91FBFC5EF566}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SimUDuckTests", "SimUDuckTests\SimUDuckTests.vcxproj", "{4F04FF58-009E-47CF-8DA7-8A310299EC02}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SimUDuckFuncTests", "SimUDuckFuncTests\SimUDuckFuncTests.vcxproj", "{E1EEEBB1-E0D1-47FE-86CE-22482ADE79DE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6AE3AB04-2757-4C1B-8E19-3137E6417568}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6AE3AB04-2757-4C1B-8E19-3137E6417568}.Debug|Win32.Build.0 = Debug|Win32
+		{6AE3AB04-2757-4C1B-8E19-3137E6417568}.Release|Win32.ActiveCfg = Release|Win32
+		{6AE3AB04-2757-4C1B-8E19-3137E6417568}.Release|Win32.Build.0 = Release|Win32
+		{01D282E9-1169-479E-9FF5-91FBFC5EF566}.Debug|Win32.ActiveCfg = Debug|Win32
+		{01D282E9-1169-479E-9FF5-91FBFC5EF566}.Debug|Win32.Build.0 = Debug|Win32
+		{01D282E9-1169-479E-9FF5-91FBFC5EF566}.Release|Win32.ActiveCfg = Release|Win32
+		{01D282E9-1169-479E-9FF5-91FBFC5EF566}.Release|Win32.Build.0 = Release|Win32
+		{4F04FF58-009E-47CF-8DA7-8A310299EC02}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4F04FF58-009E-47CF-8DA7-8A310299EC02}.Debug|Win32.Build.0 = Debug|Win32
+		{4F04FF58-009E-47CF-8DA7-8A310299EC02}.Release|Win32.ActiveCfg = Release|Win32
+		{4F04FF58-009E-47CF-8DA7-8A310299EC02}.Release|Win32.Build.0 = Release|Win32
+		{E1EEEBB1-E0D1-47FE-86CE-22482ADE79DE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E1EEEBB1-E0D1-47FE-86CE-22482ADE79DE}.Debug|Win32.Build.0 = Debug|Win32
+		{E1EEEBB1-E0D1-47FE-86CE-22482ADE79DE}.Release|Win32.ActiveCfg = Release|Win32
+		{E1EEEBB1-E0D1-47FE-86CE-22482ADE79DE}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

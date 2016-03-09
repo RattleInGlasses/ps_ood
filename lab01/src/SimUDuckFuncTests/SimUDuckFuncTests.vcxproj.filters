@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Файлы исходного кода">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Заголовочные файлы">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Файлы исходного кода\DuckFiles">
+      <UniqueIdentifier>{096370f5-4af8-43f8-9ac7-39acfbfc3fdd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\DuckFiles">
+      <UniqueIdentifier>{3a9b8fde-2eaf-410b-a8b7-e7160921787c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SimUDuck_func\DanceBehavior.h">
+      <Filter>Заголовочные файлы\DuckFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SimUDuck_func\DecoyDuck.h">
+      <Filter>Заголовочные файлы\DuckFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SimUDuck_func\Duck.h">
+      <Filter>Заголовочные файлы\DuckFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SimUDuck_func\FlyBehavior.h">
+      <Filter>Заголовочные файлы\DuckFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SimUDuck_func\MallardDuck.h">
+      <Filter>Заголовочные файлы\DuckFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SimUDuck_func\ModelDuck.h">
+      <Filter>Заголовочные файлы\DuckFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SimUDuck_func\QuackBehavior.h">
+      <Filter>Заголовочные файлы\DuckFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SimUDuck_func\RedheadDuck.h">
+      <Filter>Заголовочные файлы\DuckFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SimUDuck_func\RubberDuck.h">
+      <Filter>Заголовочные файлы\DuckFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="TestsCommon.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="SimUDuckFuncTests.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SimUDuck_func\DanceBehavior.cpp">
+      <Filter>Файлы исходного кода\DuckFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SimUDuck_func\DecoyDuck.cpp">
+      <Filter>Файлы исходного кода\DuckFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SimUDuck_func\Duck.cpp">
+      <Filter>Файлы исходного кода\DuckFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SimUDuck_func\FlyBehavior.cpp">
+      <Filter>Файлы исходного кода\DuckFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SimUDuck_func\MallardDuck.cpp">
+      <Filter>Файлы исходного кода\DuckFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SimUDuck_func\ModelDuck.cpp">
+      <Filter>Файлы исходного кода\DuckFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SimUDuck_func\QuackBehavior.cpp">
+      <Filter>Файлы исходного кода\DuckFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SimUDuck_func\RedheadDuck.cpp">
+      <Filter>Файлы исходного кода\DuckFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SimUDuck_func\RubberDuck.cpp">
+      <Filter>Файлы исходного кода\DuckFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="TestsCommon.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="MallardDuckTests.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="ReadheadDuckTests.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="DecoyDuckTests.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="RubberDuckTests.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelDuckTests.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
