@@ -40,7 +40,7 @@ BOOST_AUTO_TEST_SUITE(RedheadDuck_)
 		});
 	}
 
-	BOOST_FIXTURE_TEST_CASE(is_waltz_dancer, CreatedDuck)
+	BOOST_FIXTURE_TEST_CASE(is_minuet_dancer, CreatedDuck)
 	{
 		TestOutputEquality("I'm dancing minuet\n", [&](){
 			duck.Dance();

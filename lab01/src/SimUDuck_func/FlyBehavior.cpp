@@ -3,12 +3,15 @@
 
 using namespace std;
 
-void FlyBehavior::FlyWithWings::operator()()
+namespace FlyBehavior
 {
-	cout << "I'm flying with wings!! It's my flight #" << ++m_flightCount << endl;
-}
+	void FlyWithWings::operator()()
+	{
+		cout << "I'm flying with wings!! It's my flight #" << ++m_flightCount << endl;
+	}
 
 
-void FlyBehavior::FlyNoWay()
-{
+	void FlyNoWay()
+	{
+	}
 }

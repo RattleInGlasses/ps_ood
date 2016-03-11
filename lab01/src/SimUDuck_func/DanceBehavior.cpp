@@ -3,16 +3,19 @@
 
 using namespace std;
 
-void DanceBehavior::DanceWaltz()
+namespace DanceBehavior
 {
-	cout << "I'm dancing waltz" << endl;
-}
+	void DanceWaltz()
+	{
+		cout << "I'm dancing waltz" << endl;
+	}
 
-void DanceBehavior::DanceMinuet()
-{
-	cout << "I'm dancing minuet" << endl;
-}
+	void DanceMinuet()
+	{
+		cout << "I'm dancing minuet" << endl;
+	}
 
-void DanceBehavior::DanceNoWay()
-{
+	void DanceNoWay()
+	{
+	}
 }

@@ -3,16 +3,15 @@
 
 using namespace std;
 
-CDuck::CDuck(std::function<void()> quackBehavior,
-	std::function<void()> flyBehavior,
-	std::function<void()> danceBehavior):
+CDuck::CDuck(std::function<void()> const &quackBehavior,
+	std::function<void()> const &flyBehavior,
+	std::function<void()> const &danceBehavior) :
 	m_quackBehavior(quackBehavior),
-	m_flyBehavior(flyBehavior),
 	m_danceBehavior(danceBehavior)
 {
 	assert(quackBehavior);
 	assert(danceBehavior);
-	SetFlyBehaviour(move(flyBehavior));
+	SetFlyBehavior(flyBehavior);
 }
 
 void CDuck::Swim() const
@@ -35,8 +34,8 @@ void CDuck::Dance() const
 	m_danceBehavior();
 }
 
-void CDuck::SetFlyBehaviour(std::function<void()> flyBehaviour)
+void CDuck::SetFlyBehavior(std::function<void()> const &flyBehavior)
 {
-	assert(m_flyBehavior);
-	m_flyBehavior = move(flyBehaviour);
+	assert(flyBehavior);
+	m_flyBehavior = flyBehavior;
 }

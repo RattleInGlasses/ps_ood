@@ -37,7 +37,7 @@ int main()
 	PlayWithDuck(decoyDuck);
 	CModelDuck modelDuck;
 	PlayWithDuck(modelDuck);
-	modelDuck.SetFlyBehaviour(FlyBehavior::FlyWithWings());
+	modelDuck.SetFlyBehavior(FlyBehavior::FlyWithWings());
 	PlayWithDuck(modelDuck);
 	PlayWithDuck(modelDuck);
 

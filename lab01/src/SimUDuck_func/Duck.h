@@ -3,9 +3,9 @@
 class CDuck
 {
 public:
-	CDuck(std::function<void()> quackBehavior,
-		std::function<void()> flyBehavior,
-		std::function<void()> danceBehavior);
+	CDuck(std::function<void()> const &quackBehavior,
+		std::function<void()> const &flyBehavior,
+		std::function<void()> const &danceBehavior);
 	virtual ~CDuck() = default;
 	
 	void Swim() const;
@@ -14,7 +14,7 @@ public:
 	void Fly() const;
 	void Dance() const;
 
-	void SetFlyBehaviour(std::function<void()> flyBehaviour);
+	void SetFlyBehavior(std::function<void()> const &flyBehavior);
 
 	virtual void Display() const = 0;
 

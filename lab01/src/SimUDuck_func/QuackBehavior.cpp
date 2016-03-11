@@ -3,16 +3,19 @@
 
 using namespace std;
 
-void QuackBehavior::Quack()
+namespace QuackBehavior
 {
-	cout << "Quack Quack!!!" << endl;
-}
+	void Quack()
+	{
+		cout << "Quack Quack!!!" << endl;
+	}
 
-void QuackBehavior::Squeak()
-{
-	cout << "Squeak!!!" << endl;
-}
+	void Squeak()
+	{
+		cout << "Squeak!!!" << endl;
+	}
 
-void QuackBehavior::MuteQuack()
-{
+	void MuteQuack()
+	{
+	}
 }

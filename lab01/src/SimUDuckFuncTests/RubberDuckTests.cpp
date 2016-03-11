@@ -49,11 +49,11 @@ BOOST_AUTO_TEST_SUITE(RubberDuckFunc_)
 
 	BOOST_FIXTURE_TEST_CASE(can_change_fly_behavior, CreatedDuck)
 	{
-		duck.SetFlyBehaviour(FlyBehavior::FlyNoWay);
+		duck.SetFlyBehavior(FlyBehavior::FlyNoWay);
 		TestOutputEquality("", [&](){
 			duck.Fly();
 		});
-		duck.SetFlyBehaviour(FlyBehavior::FlyWithWings());
+		duck.SetFlyBehavior(FlyBehavior::FlyWithWings());
 		TestOutputEquality("I'm flying with wings!! It's my flight #1\n", [&](){
 			duck.Fly();
 		});

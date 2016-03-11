@@ -39,7 +39,7 @@ BOOST_AUTO_TEST_SUITE(RedheadDuckFunc_)
 		});
 	}
 
-	BOOST_FIXTURE_TEST_CASE(is_waltz_dancer, CreatedDuck)
+	BOOST_FIXTURE_TEST_CASE(is_minuet_dancer, CreatedDuck)
 	{
 		TestOutputEquality("I'm dancing minuet\n", [&](){
 			duck.Dance();
@@ -55,11 +55,11 @@ BOOST_AUTO_TEST_SUITE(RedheadDuckFunc_)
 
 	BOOST_FIXTURE_TEST_CASE(can_change_fly_behavior, CreatedDuck)
 	{
-		duck.SetFlyBehaviour(FlyBehavior::FlyNoWay);
+		duck.SetFlyBehavior(FlyBehavior::FlyNoWay);
 		TestOutputEquality("", [&](){
 			duck.Fly();
 		});
-		duck.SetFlyBehaviour(FlyBehavior::FlyWithWings());
+		duck.SetFlyBehavior(FlyBehavior::FlyWithWings());
 		TestOutputEquality("I'm flying with wings!! It's my flight #1\n", [&](){
 			duck.Fly();
 		});
